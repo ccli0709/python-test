@@ -22,3 +22,9 @@ stdev_val = statistics.stdev(money)
 
 # 為了方便閱讀，我們通常會取小數點後兩位
 print(f"標準差: {stdev_val:.2f}")
+
+money_perfect = [2000, 2000, 2000, 2000, 2000]
+
+# 算標準差
+# 為了方便閱讀，我們通常會取小數點後兩位
+print(f"標準差perfect: {statistics.stdev(money_perfect):.2f}")
